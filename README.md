@@ -1,7 +1,7 @@
 # Rexpaint_palette_converter
 Converts .hex palettes into rexpaint compatible palettes
 
-To use it place the program in a folder along side the pallete
+To use it place the program in a folder along side the palette
 
 Warning! 
 
