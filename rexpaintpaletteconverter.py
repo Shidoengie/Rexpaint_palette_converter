@@ -1,5 +1,7 @@
 from converter import *
-rex_palette = open("rexpal.txt", "w")
+filename = input("enter the name of your palette")
+filename = filename + ".txt"
+rex_palette = open(filename, "w")
 hex_conv = open("pal.hex", "r")
 i = 0
 for hexnum in hex_conv.readlines():
