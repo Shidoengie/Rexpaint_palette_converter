@@ -1,8 +1,9 @@
 from converter import *
 filename = input("enter the name of your palette")
-filename = filename + ".txt"
-rex_palette = open(filename, "w")
-hex_conv = open("pal.hex", "r")
+filename2 = filename + ".txt"
+filename3 = filename + ".hex"
+rex_palette = open(filename2, "w")
+hex_conv = open(filename3, "r")
 i = 0
 for hexnum in hex_conv.readlines():
     val1 = convert(hexnum,0,0,0)
